@@ -15,6 +15,5 @@ class Conversion {
         }else{
             return "${h[0]}:${j}${t}"
         }
-
     }
 }

@@ -11,7 +11,5 @@ fun main(args : Array<String>){
         println(element)
     }
     Trajet().villeDepart()
-
-
 }
 
