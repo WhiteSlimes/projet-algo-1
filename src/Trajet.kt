@@ -3,7 +3,7 @@
  * En Kotlin ❤
  * Created at 23/10/2019
  */
-import java.util.*
+import java.util.Scanner
 
 class Trajet {
     fun villeDepart(){
