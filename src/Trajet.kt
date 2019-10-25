@@ -17,7 +17,7 @@ class Trajet {
             villeArrive(T)
         }else{
             println("La ville que tu a rentré n'est pas dans la liste des villes de départ")
-            return villeDepart()
+            villeDepart()
         }
     }
     fun villeArrive(T: String){
@@ -31,11 +31,11 @@ class Trajet {
                 distance(T, Y)
             }else{
                 println("La ville que tu a rentré n'est pas dans la liste des villes d'arrivé")
-                return villeArrive(T)
+                villeArrive(T)
             }
         }else{
             println("Tu ne peux pas sélectionner la même ville que celle de départ !")
-            return villeArrive(T)
+            villeArrive(T)
         }
     }
     fun distance(T: String, Y: String){
